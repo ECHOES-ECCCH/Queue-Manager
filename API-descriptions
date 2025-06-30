@@ -1,0 +1,11 @@
+POST /queue/tasks/{taskType}/submit
+Submit a task of a specific type.
+
+GET /queue/users/{userId}/tasks/{taskId}/status
+Check the status of a user’s task.
+
+PUT /queue/tasks/{taskId}/priority
+Change the priority of a task.
+
+DELETE /queue/tasks/{taskId}/retries/{retryId}
+Remove a specific retry attempt.
