@@ -1,3 +1,5 @@
+#Preliminary version 0.1
+
 POST /queue/tasks/{taskType}/submit
 Submit a task of a specific type.
 
